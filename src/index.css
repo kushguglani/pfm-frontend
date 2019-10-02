@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.top-heading{
+  text-align: center;
+  padding:20px 0;
+}
+
+.app-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color:#fafafa;
+  height: 100vh;
+}
+.product-body{
+  margin-top: 30px;
+  background-color:#fafafa;
+  width: 80%;
+  margin: 40px auto;
+}
+/* h3{
+  text-align: center;
+  margin-bottom: 25px !important;
+} */
+
+.nav-tabs .selected {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs a{
+  border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.nav-item a{
+    padding: 10px;
+    text-decoration: none !important;
+}
+.nav-tabs {
+    padding-bottom: 8px;
+}
+.toast{
+  position: absolute;
+  bottom: 50px;
+  left:45%;
+}
+.success{
+  color:green;
+  border-color: green !important;
+
+}
+.error{
+  color:red;
+  border-color: red !important;
+
+}
+.table-content{
+  
+  margin-top: 30px;
+  background-color:#fafafa;
+  width: 80%;
+  margin: 40px auto;
+}
+.input-search{
+    outline: none;
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
